@@ -11,7 +11,6 @@ import org.hibernate.boot.registry.selector.StrategyRegistration;
 public class Produto {
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-	
 	private int id;
 	
 	private String titulo; 
